@@ -73,8 +73,34 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 ### Possible solution
 ```
+# "Soft" force push to origin/main
 ❯ git push origin +main
 Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/<username>/<repo>.git
  + 81716ca...0969728 main -> main (forced update)
+```
+
+### Issue
+```
+❯ git add .
+warning: adding embedded git repository: application/csc648-react-frontend
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> application/csc648-react-frontend
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached application/csc648-react-frontend
+hint: 
+hint: See "git help submodule" for more information.
+```
+
+### Possible Solution
+```
+❯ git submodule add https://github.com/<username>/<repo>.git application/csc648-react-frontend
+Adding existing repo at 'application/csc648-react-frontend' to the index
 ```
