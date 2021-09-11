@@ -1,8 +1,8 @@
 # git-usage-example
 
 ## What is Git and GitHub?
-Git : SVC tool
-GitHub : SVC host and collaboration web application
+- Git : VCS software application
+- GitHub : VCS cloud-based repository host, collaboration web application, CI/CD
 
 ## Create Remote Repository
 
