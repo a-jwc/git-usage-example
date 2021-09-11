@@ -1,5 +1,9 @@
 # git-usage-example
 
+## What is Git and GitHub?
+Git : SVC tool
+GitHub : SVC host and collaboration web application
+
 ## Create Remote Repository
 
 ### In Profile, click "Create Repo"
@@ -19,8 +23,7 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 
 ## CLI
 
-### After creating repo
-`echo "# csc648-react-frontend" >> README.md`
+### After creating repo on GitHub
 `git init`
 
 ### Add README.md to staging
