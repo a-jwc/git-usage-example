@@ -39,5 +39,21 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 `git push -u origin main`
 
 # Troubleshooting
-<img src="https://user-images.githubusercontent.com/68071075/132939438-d4ec1fe4-6372-43ff-95fb-7435de7a9815.png" alt="drawing" width="500"/>
-
+### Issue
+```
+❯ git push origin main
+To https://github.com/<username>/<repo>.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://<username>:<string>@github.com/<username>/<repo>.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+### Possible solution
+```
+❯ git push origin +main
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/<username>/<repo>.git
+ + 81716ca...0969728 main -> main (forced update)
+```
