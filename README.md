@@ -1,8 +1,16 @@
 # git-usage-example
 
+## Resources
+- https://www.atlassian.com/git/tutorials/setting-up-a-repository
+- https://docs.github.com/en
+
 ## What is Git and GitHub?
 - Git : VCS software application
 - GitHub : VCS cloud-based repository host, collaboration web application, CI/CD
+
+### Not covering:
+- GitHub CLI
+- GitHub Desktop
 
 ## Create Remote Repository
 
@@ -40,6 +48,16 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 
 ### Push to repo
 `git push -u origin main`
+
+# Useful commands
+### Check remote repo url
+`git remote -v`
+
+### Sets the base of the branch to another commit; useful for cleaning up commit tree in an organization
+#### `-i`: interactive mode opens text editor for commit editting
+`git rebase -i <commit>`
+> EXTRA CARE MUST BE TAKEN WHEN USING THIS; POWERFUL BUT POTENTIALLY DANGEROUS 
+> Learn: https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
 
 # Troubleshooting
 ### Issue
