@@ -37,3 +37,7 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 
 ### Push to repo
 `git push -u origin main`
+
+# Troubleshooting
+![image](https://user-images.githubusercontent.com/68071075/132939438-d4ec1fe4-6372-43ff-95fb-7435de7a9815.png)
+
