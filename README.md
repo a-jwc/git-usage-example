@@ -57,6 +57,7 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 #### `-i`: interactive mode opens text editor for commit editting
 `git rebase -i <commit>`
 > EXTRA CARE MUST BE TAKEN WHEN USING THIS; POWERFUL BUT POTENTIALLY DANGEROUS 
+> 
 > Learn: https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
 
 # Troubleshooting
