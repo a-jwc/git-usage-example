@@ -29,7 +29,9 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 ### PAT (Personal Access Token)
 https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-## CLI
+# CLI
+
+## Creating a new repo
 
 ### After creating repo on GitHub
 `git init`
@@ -48,6 +50,15 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 
 ### Push to repo
 `git push -u origin main`
+
+## Updating local master with remote changes from a different branch
+```
+# assuming in branch master
+git fetch origin
+# you should now have dev_frontend locally
+git merge dev_frontend
+# assuming you already had the dev_frontend branch and you get merge conflicts
+```
 
 # Useful commands
 ### Check remote repo url
@@ -109,3 +120,4 @@ Adding existing repo at 'application/csc648-react-frontend' to the index
 ``` TODO
 git merge --abort
 ```
+
