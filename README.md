@@ -117,7 +117,11 @@ hint: See "git help submodule" for more information.
 Adding existing repo at 'application/csc648-react-frontend' to the index
 ```
 
-``` TODO
+### Issue
+``` 
+# TODO
 git merge --abort
 ```
+
+
 
