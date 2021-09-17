@@ -3,6 +3,7 @@
 ## Resources
 - https://www.atlassian.com/git/tutorials/setting-up-a-repository
 - https://docs.github.com/en
+- https://stackoverflow.com/questions/34519665/how-can-i-move-head-back-to-a-previous-location-detached-head-undo-commits
 
 ## What is Git and GitHub?
 - Git : VCS software application
