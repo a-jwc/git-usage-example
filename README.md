@@ -1,9 +1,10 @@
 # git-usage-example
 
 ## Resources
-- https://www.atlassian.com/git/tutorials/setting-up-a-repository
-- https://docs.github.com/en
-- https://stackoverflow.com/questions/34519665/how-can-i-move-head-back-to-a-previous-location-detached-head-undo-commits
+- https://docs.google.com/presentation/d/1iVMCaxGJJkq_V-yLiCQHfHWTDuCcNXso5dZswosVHWc/edit?usp=sharing <- presentation
+- https://www.atlassian.com/git/tutorials/setting-up-a-repository <- user-friendly git docs
+- https://docs.github.com/en <- github source of truth
+- https://stackoverflow.com/questions/34519665/how-can-i-move-head-back-to-a-previous-location-detached-head-undo-commits <- useful commands / explanations
 
 ## What is Git and GitHub?
 - Git : VCS software application
@@ -54,10 +55,11 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 
 ## Updating local master with remote changes from a different branch
 ```
-# assuming in branch master
+git checkout master
 git fetch origin
 # you should now have dev_frontend locally
-git merge dev_frontend
+# now we merge dev_frontend into master (our current branch)
+git merge dev_frontend 
 # assuming you already had the dev_frontend branch and you get merge conflicts
 ```
 
@@ -71,6 +73,10 @@ git merge dev_frontend
 > EXTRA CARE MUST BE TAKEN WHEN USING THIS; POWERFUL BUT POTENTIALLY DANGEROUS 
 > 
 > Learn: https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+
+### Force push a single branch
+`git push origin +main`
+> https://stackoverflow.com/questions/5667884/how-to-squash-commits-in-git-after-they-have-been-pushed
 
 # Troubleshooting
 ### Issue
@@ -86,7 +92,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 ### Possible solution
 ```
-# "Soft" force push to origin/main
+# Force push only main to origin/main
 ❯ git push origin +main
 Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/<username>/<repo>.git
