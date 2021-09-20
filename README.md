@@ -114,6 +114,7 @@ hint: See "git help submodule" for more information.
 ❯ git submodule add https://github.com/<username>/<repo>.git application/csc648-react-frontend
 Adding existing repo at 'application/csc648-react-frontend' to the index
 ```
+> https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 ### Issue
 ``` 
