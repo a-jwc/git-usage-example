@@ -14,15 +14,6 @@
 - GitHub CLI
 - GitHub Desktop
 
-## Create Remote Repository
-
-### In Profile, click "Create Repo"
-
-#### TODO
-
-### Sample configuration
-![image](https://user-images.githubusercontent.com/68071075/132845437-3ef32a09-c084-498b-a4f6-0230d2ff4cc7.png)
-
 ## Authentication
 
 ### SSH (Secure Shell)
