@@ -117,6 +117,9 @@ Adding existing repo at 'application/csc648-react-frontend' to the index
 > https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 ### Issue
+> If you are merging after fetching, but made a mistake with conflict resolution.
+
+### Possible Solution
 ``` 
 # TODO
 git merge --abort
