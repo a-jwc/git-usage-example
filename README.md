@@ -44,7 +44,7 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 ### Push to repo
 `git push -u origin main`
 
-## Updating local master with remote changes from a different branch
+## Updating local master with remote changes from a different branch (origin/dev_frontend)
 ```
 git checkout master
 git fetch origin
