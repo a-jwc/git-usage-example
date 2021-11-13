@@ -125,5 +125,11 @@ Adding existing repo at 'application/csc648-react-frontend' to the index
 git merge --abort
 ```
 
-
+### Issue
+> Need to push immediately in a new branch
+```
+git switch -c <branch-name>
+git commit -am "wip <your issue>"
+git push origin <branch-name>
+```
 
