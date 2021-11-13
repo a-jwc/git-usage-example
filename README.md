@@ -127,6 +127,8 @@ git merge --abort
 
 ### Issue
 > Need to push immediately in a new branch
+
+### Possible Solution
 ```
 git switch -c <branch-name>
 git commit -am "wip <your issue>"
