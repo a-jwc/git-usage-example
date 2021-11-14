@@ -135,3 +135,10 @@ git commit -am "wip <your issue>"
 git push origin <branch-name>
 ```
 
+### Issue
+> Need to check on file contents of an old commit
+
+### Possible Solution
+```
+git show <commit-hash>:<path/to/file>
+```
