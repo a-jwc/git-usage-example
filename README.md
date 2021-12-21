@@ -142,3 +142,14 @@ git push origin <branch-name>
 ```
 git show <commit-hash>:<path/to/file>
 ```
+
+### Issue
+> Get updates from origin/master branch after a single commit
+
+```
+git reset HEAD~1
+git stash
+git rebase -p origin/master
+git stash pop
+git push origin +chau_phragmms
+```
